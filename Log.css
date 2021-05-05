@@ -1,0 +1,78 @@
+*{
+	box-sizing: border-box;
+}
+		
+
+body{
+
+	background: url(background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container{
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	
+
+
+}
+
+.Login-form{
+	margin-top: 150px;
+	flex-basis: 400px;
+	background: turquoise;
+	padding: 20px;
+	background-image: url(lock.png);
+	background-size: 70px;
+	background-repeat: no-repeat;
+	background-position: 165px 10px;
+	box-shadow: 0px 0px 10px 2px red;
+	margin-left: 400px;	
+
+}
+
+.Login-form h2{
+	
+	color: black;
+	text-align: center;
+	padding-bottom: 20px;
+	margin-top: 0 0 20px;
+
+}
+
+input, select{
+	width: 100%;
+	padding: 15px 20px;
+	margin: 8px 0px;
+	border: 1px solid dimgray;
+}
+
+input[value=LOGIN]{
+	background: #038ade;
+	border: none;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+
+input[value=LOGOUT] {
+
+	background: #038ade;
+	border: none;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	width: 50%;
+	margin-left: 325px;
+}
+
+h1 {
+
+	color: white;
+	
+}
